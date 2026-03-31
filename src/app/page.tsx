@@ -5,6 +5,7 @@ import Timeline from "@/components/Timeline";
 import Ventures from "@/components/Ventures";
 import Gallery from "@/components/Gallery";
 import Philosophy from "@/components/Philosophy";
+import Bitcoin from "@/components/Bitcoin";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Ventures />
       <Gallery />
       <Philosophy />
+      <Bitcoin />
       <Contact />
       <Footer />
     </main>
