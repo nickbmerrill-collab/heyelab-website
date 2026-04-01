@@ -22,7 +22,7 @@ const ventures = [
     role: "Founder & President",
     period: "2012 – Present",
     description:
-      "Electrical manufacturer's representative firm I started in 2012. We represent Legrand's full portfolio and work on a lot of the major data center projects in the US.",
+      "Electrical manufacturer's representative firm founded in 2012. We represent Legrand's full portfolio and work on a lot of the major data center projects in the US.",
     metric: "$50M+",
     metricLabel: "Annual Sales",
     icon: (
@@ -83,13 +83,9 @@ export default function Ventures() {
               href={`/work/${v.slug}`}
               className="group relative p-8 rounded-2xl bg-bg-card border border-border hover:border-border-accent transition-all duration-300 block"
             >
-              <div className="flex items-start justify-between mb-6">
-                <div className="p-3 rounded-xl bg-accent/10 text-accent">
+              <div className="mb-6">
+                <div className="p-3 rounded-xl bg-accent/10 text-accent w-fit">
                   {v.icon}
-                </div>
-                <div className="text-right">
-                  <p className="text-2xl font-bold text-accent">{v.metric}</p>
-                  <p className="text-xs text-text-muted">{v.metricLabel}</p>
                 </div>
               </div>
 

@@ -57,25 +57,6 @@ export default function About() {
               </p>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-border">
-              <div>
-                <p className="text-3xl font-bold text-accent">14+</p>
-                <p className="text-sm text-text-muted mt-1">
-                  Years in business
-                </p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-accent">$200M+</p>
-                <p className="text-sm text-text-muted mt-1">In annual sales</p>
-              </div>
-              <div>
-                <p className="text-3xl font-bold text-accent">40x</p>
-                <p className="text-sm text-text-muted mt-1">
-                  Growth at Power Busway
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
