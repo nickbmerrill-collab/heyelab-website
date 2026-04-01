@@ -72,7 +72,7 @@ export default function Ventures() {
             Ventures
           </p>
           <h2 className="text-3xl md:text-5xl font-bold">
-            What I&apos;m building
+            What we&apos;re building
           </h2>
         </div>
 

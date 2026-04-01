@@ -41,8 +41,8 @@ export default function Gallery() {
           </p>
           <h2 className="text-3xl md:text-5xl font-bold">From the field</h2>
           <p className="text-text-secondary mt-4 max-w-lg mx-auto">
-            Snapshots from the factory floor, job sites, and the work that
-            defines my career.
+            Snapshots from the factory floor, job sites, and the work
+            we do every day.
           </p>
         </div>
 

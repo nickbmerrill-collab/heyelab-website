@@ -13,10 +13,10 @@ const entries = [
     metric: "200+",
     metricLabel: "tons/hour throughput",
     description:
-      "Our team co-developed a cruise control system for car shredders that improved throughput from 80 to 200+ tons/hour. Also did PLC programming and controls work across several facilities.",
+      "Global leader in metal recycling automation. Our team's work is on most if not all American shredding facilities. Co-developed the first non-derivative cruise control for car shredders, improving throughput from 80 to 200+ tons/hour.",
     highlights: [
-      "Novel cruise control system",
-      "PLC & controls programming",
+      "Industry-standard automation",
+      "Cruise control for shredders",
       "2 co-authored industry papers",
     ],
     accentFrom: "from-cyan-500",
@@ -173,13 +173,13 @@ function AccordionItem({
           <div className="flex-1 min-w-0">
             <div className="flex flex-col md:flex-row md:items-baseline gap-1 md:gap-4">
               <h3
-                className={`text-lg md:text-2xl font-bold transition-colors duration-300 truncate ${
+                className={`text-lg md:text-2xl font-bold transition-colors duration-300 ${
                   isOpen ? "text-text-primary" : "text-text-secondary group-hover:text-text-primary"
                 }`}
               >
                 {entry.org}
               </h3>
-              <span className="text-sm font-mono text-text-muted shrink-0">
+              <span className="text-xs md:text-sm font-mono text-text-muted shrink-0">
                 {entry.title} · {entry.year}
               </span>
             </div>
@@ -254,7 +254,7 @@ function AccordionItem({
               </p>
 
               {/* Highlights */}
-              <div className="flex flex-col sm:flex-row gap-3 mb-6">
+              <div className="flex flex-wrap gap-3 mb-6">
                 {entry.highlights.map((h, i) => (
                   <div
                     key={i}
