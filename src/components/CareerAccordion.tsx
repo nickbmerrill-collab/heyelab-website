@@ -34,7 +34,7 @@ const entries = [
     year: "Early Career",
     title: "Controls & Automation Engineer",
     org: "Riverside Engineering",
-    website: null,
+    website: "https://www.riversideengineering.co",
     metric: "200+",
     metricLabel: "tons/hour throughput",
     description:
@@ -106,7 +106,7 @@ const entries = [
     year: "2023",
     title: "Founder",
     org: "Heye Power Consultants",
-    website: null,
+    website: "https://www.heyepowerconsultants.com",
     metric: "MW+",
     metricLabel: "scale systems",
     description:

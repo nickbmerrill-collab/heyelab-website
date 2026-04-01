@@ -38,7 +38,7 @@ const ventures = [
     name: "Heye Power Consultants",
     role: "Founder",
     period: "2023 – Present",
-    website: null,
+    website: "https://www.heyepowerconsultants.com",
     description:
       "Consulting practice focused on high-current and ampacity systems for manufacturing facilities and data centers.",
     metric: "MW+",
