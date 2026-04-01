@@ -30,25 +30,21 @@ export default function Bitcoin() {
 
         <div className="space-y-6 text-text-secondary leading-relaxed">
           <p>
-            I discovered Bitcoin in 2011 — early enough to watch the entire
-            ecosystem take shape from the ground up. Within a year I was mining,
-            running hardware and diving deep into how the protocol actually works.
-            What started as curiosity from an electrical engineer who understood
-            computation and energy became a conviction that has only deepened with time.
+            I came across Bitcoin in 2011 and started mining the following year.
+            As an electrical engineer, the proof-of-work mechanism made immediate
+            sense — converting energy into immutable history is an interesting
+            engineering problem.
           </p>
           <p>
-            Bitcoin resonates with the same first-principles thinking I apply to
-            power systems: it&apos;s a protocol built on physics and math, not trust in
-            institutions. The proof-of-work mechanism — converting energy into
-            immutable history — is elegant engineering. The fixed supply schedule
-            is predictable in a way that no central bank policy ever can be.
+            The protocol appeals to me for the same reasons power systems do:
+            it&apos;s built on physics and math, not on trust in institutions.
+            The fixed supply schedule is predictable in a way that monetary
+            policy isn&apos;t.
           </p>
           <p>
-            Over 15 years I&apos;ve watched Bitcoin survive every imaginable attack —
-            technical, regulatory, and narrative. Each cycle, the fundamentals
-            get stronger. I remain deeply involved in the space: following
-            development, holding convictions, and watching the network effect
-            compound exactly the way I&apos;ve seen it work in business.
+            I&apos;ve stayed involved over the years — following protocol
+            development, running infrastructure, and more recently exploring
+            mining operations powered by flare gas through Heyelab.
           </p>
         </div>
       </div>

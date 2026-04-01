@@ -32,31 +32,29 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I&apos;m Nick Merrill — an electrical engineer by training who discovered
-                that building businesses is just another form of systems design.
-                My career started on the factory floor: programming PLCs, designing
+                I&apos;m Nick Merrill — electrical engineer by training. My career
+                started on the factory floor: programming PLCs, designing
                 controls systems, and building HMI interfaces for metal recycling
-                centers using RSLogix 5000.
+                centers.
               </p>
               <p>
-                That hands-on foundation became the launchpad for everything that
-                followed. I founded 2M Electrical Reps in 2012, joined Power Busway
-                as a partner in 2018 and helped drive it from $5M to over $200M in
-                annual sales, launched Heye Power Consultants in 2023 to consult
-                on high-current ampacity systems, and in 2025 created Heyelab as
-                an incubator for the next generation of projects.
+                Over time that turned into building businesses. I founded
+                2M Electrical Reps in 2012, joined Power Busway as a partner
+                in 2018, started Heye Power Consultants in 2023 for high-current
+                consulting work, and in 2025 set up Heyelab to work on
+                new projects across different industries.
               </p>
               <p>
-                My edge comes from two things:{" "}
+                Most of what I do sits at the intersection of{" "}
                 <span className="text-text-primary font-medium">
-                  deep electro-mechanical expertise
+                  technical depth
                 </span>{" "}
-                — I&apos;m a 10x engineer when it comes to power systems — and an
-                unwavering belief in the{" "}
+                and{" "}
                 <span className="text-text-primary font-medium">
-                  power of relationships
+                  long-term relationships
                 </span>
-                . The network effect is real, and I&apos;ve built my career on it.
+                . I&apos;ve stayed in the same industry working with the same people
+                for a long time, and that tends to compound.
               </p>
             </div>
 
@@ -70,7 +68,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-3xl font-bold text-accent">$200M+</p>
-                <p className="text-sm text-text-muted mt-1">Revenue driven</p>
+                <p className="text-sm text-text-muted mt-1">In annual sales</p>
               </div>
               <div>
                 <p className="text-3xl font-bold text-accent">40x</p>

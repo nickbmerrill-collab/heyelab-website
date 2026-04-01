@@ -27,11 +27,10 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">10x Engineering</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  Deep, first-principles expertise in electro-mechanical and
-                  high-current power systems. Not just understanding the theory —
-                  having built, commissioned, and troubleshot these systems on
-                  factory floors and in data centers. This technical depth is
-                  rare and it compounds.
+                  I came up through electro-mechanical and high-current power
+                  systems — building, commissioning, and troubleshooting on
+                  factory floors and in data centers. That hands-on foundation
+                  has made everything else easier.
                 </p>
               </div>
 
@@ -45,11 +44,10 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">The Network Effect</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  Relationships built on trust, competence, and genuine value
-                  creation. The network effect is extremely powerful — every
-                  strong relationship opens doors to ten more. I invest in people
-                  first and the business follows. This is how you go from $5M to
-                  $200M.
+                  Most good things in my career came through people I&apos;d
+                  worked with before. Relationships built on trust and
+                  competence tend to open doors over time. I try to invest in
+                  people first and let the business follow.
                 </p>
               </div>
             </div>
@@ -70,14 +68,12 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">Income Follows the Work</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  If you work hard consistently, in the same or related industries,
-                  with the same people — you will succeed if through nothing else
-                  than iteration alone. Naval Ravikant says to play iterated games
-                  with iterated people. It has been my experience that this is a
-                  universal truth and the surest path to success. Every venture
-                  I&apos;ve built proves it: the same relationships, the same
-                  industries, the same commitment to excellence — compounding over
-                  14+ years.
+                  Show up consistently, in the same industries, with the same
+                  people — and things tend to work out over time. Naval Ravikant
+                  calls it playing iterated games with iterated people. That&apos;s
+                  been my experience. Staying in the same space for 14+ years
+                  means relationships and knowledge compound in ways that are
+                  hard to shortcut.
                 </p>
               </div>
 
@@ -91,15 +87,12 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">Relationships Matter</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  In today&apos;s workforce, we&apos;re heavily reliant on digital
-                  communication. But a personal presence is so much more powerful.
-                  Body language, camaraderie, the unspoken understanding that comes
-                  from being in a room together — a high level of communication is
-                  completely nonverbal. Fostering strong relationships with the
-                  people you work with and depend on for success isn&apos;t optional.
-                  It&apos;s a must. Every major deal, every partnership, every
-                  breakthrough in my career came from a relationship built face to
-                  face.
+                  Most of what matters in communication is nonverbal — body
+                  language, presence, the understanding that comes from being in
+                  a room together. I&apos;ve found that the most important things
+                  in my work have come from relationships built face to face.
+                  Digital tools are great, but they&apos;re not a substitute for
+                  showing up.
                 </p>
               </div>
 
@@ -113,17 +106,13 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">Honesty, Integrity, Morals</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  Bulls make money, bears make money, pigs get slaughtered. Show
-                  returns for your partners in advance — knowing you&apos;ve got
-                  years to recoup — and then watch the returns flow in. Do the
-                  right thing. It seems simple in practice, but when faced with
-                  challenges at work or opportunities that might stress a
-                  relationship, always take the high road. I&apos;m a student of
-                  game theory and the prisoner&apos;s dilemma, and I integrate
-                  this as a core part of my decision-making: cooperate first,
-                  play fair, and optimize for the long game. The people who cut
-                  corners win once. The people who play with integrity win
-                  forever.
+                  Do the right thing, even when it costs you in the short term.
+                  I think about this through the lens of game theory and the
+                  prisoner&apos;s dilemma — cooperate first, play fair, optimize
+                  for the long game. Show returns for your partners before
+                  worrying about your own. It&apos;s simple in theory, harder
+                  in practice, but it&apos;s the only approach I&apos;ve seen
+                  work consistently.
                 </p>
               </div>
             </div>

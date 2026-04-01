@@ -23,9 +23,9 @@ export default function Hero() {
         </p>
 
         <p className="text-base md:text-lg text-text-muted max-w-xl mx-auto mb-12">
-          From controls engineering on factory floors to scaling a company from
-          $5M to $200M+ in annual sales. Building at the intersection of
-          deep technical expertise and high-trust relationships.
+          Controls engineering background. Built and run businesses in
+          electrical distribution and power systems. Currently working on
+          a handful of new things.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Timeline from "@/components/Timeline";
+import CareerAccordion from "@/components/CareerAccordion";
 import Ventures from "@/components/Ventures";
 import Gallery from "@/components/Gallery";
 import Philosophy from "@/components/Philosophy";
@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <About />
-      <Timeline />
+      <CareerAccordion />
       <Ventures />
       <Gallery />
       <Philosophy />

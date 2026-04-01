@@ -7,7 +7,7 @@ const ventures = [
     role: "Partner",
     period: "2018 – Present",
     description:
-      "Drove the company from $5M to $200M+ in annual sales, then led the negotiation of a 9-figure acquisition by a global manufacturer — while retaining exclusive distribution rights and territories.",
+      "Joined as a partner in 2018. The company grew from $5M to $200M+ in annual sales and was acquired by Legrand in 2024. We retained distribution rights and territories.",
     metric: "9-Figure",
     metricLabel: "Acquisition",
     icon: (
@@ -22,7 +22,7 @@ const ventures = [
     role: "Founder & President",
     period: "2012 – Present",
     description:
-      "National leader in data center deployment, working on 40%+ of all US data center projects. Three-time Circle of Excellence winners. Grew from $2M to $50M+ in annual sales representing Legrand's full portfolio.",
+      "Electrical manufacturer's representative firm I started in 2012. We represent Legrand's full portfolio and work on a lot of the major data center projects in the US.",
     metric: "$50M+",
     metricLabel: "Annual Sales",
     icon: (
@@ -37,7 +37,7 @@ const ventures = [
     role: "Founder",
     period: "2023 – Present",
     description:
-      "Consulting on high-current and ampacity systems for manufacturing and data centers. Solving the hardest power distribution challenges with first-principles engineering.",
+      "Consulting practice focused on high-current and ampacity systems for manufacturing facilities and data centers.",
     metric: "MW+",
     metricLabel: "Scale Systems",
     icon: (
@@ -52,7 +52,7 @@ const ventures = [
     role: "Founder",
     period: "2025 – Present",
     description:
-      "Incubator with 8+ active projects: distributed AI clustering, crypto mining with flare gas capture, 2MOS electrical industry platform, ClickCart golf cart rentals, small-town delivery, and more — plus two classified ventures in active development.",
+      "A place for new projects — distributed AI clustering, crypto mining with flare gas, an electrical industry platform, golf cart rentals, small-town delivery, and a few more things in the works.",
     metric: "8+",
     metricLabel: "Active Projects",
     icon: (
