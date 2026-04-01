@@ -7,7 +7,7 @@ const ventures = [
     role: "Partner",
     period: "2018 – Present",
     description:
-      "Joined as a partner in 2018. The company grew from $5M to $200M+ in annual sales and was acquired by Legrand in 2024. We retained distribution rights and territories.",
+      "Joined as a partner in 2018 and helped lead sales to $200M+ annually. Acquired by Legrand in 2024 — we retained distribution rights and territories.",
     metric: "9-Figure",
     metricLabel: "Acquisition",
     icon: (
@@ -22,7 +22,7 @@ const ventures = [
     role: "Founder & President",
     period: "2012 – Present",
     description:
-      "Electrical manufacturer's representative firm founded in 2012. We represent Legrand's full portfolio and work on a lot of the major data center projects in the US.",
+      "Electrical manufacturer's representative firm we founded in 2012. Grew it to $50M+ in annual sales representing Legrand's full portfolio. We work on a lot of the major data center projects in the US.",
     metric: "$50M+",
     metricLabel: "Annual Sales",
     icon: (

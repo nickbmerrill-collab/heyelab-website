@@ -35,7 +35,7 @@ const entries = [
     metric: "$50M+",
     metricLabel: "annual sales",
     description:
-      "Electrical manufacturer's representative firm founded in 2012. We represent Legrand's portfolio and work on a lot of the major data center projects in the US.",
+      "Electrical manufacturer's representative firm we founded in 2012. Grew it to $50M+ in annual sales representing Legrand's full portfolio, working on a lot of the major US data center projects.",
     highlights: [
       "Grew from $2M to $50M+",
       "Major data center focus",
@@ -57,7 +57,7 @@ const entries = [
     metric: "$200M+",
     metricLabel: "annual sales",
     description:
-      "Joined as a partner in 2018. The company grew from $5M to over $200M in annual sales and was acquired by Legrand in 2024.",
+      "Joined as a partner in 2018 and helped lead sales to $200M+ annually. Acquired by Legrand in 2024.",
     highlights: [
       "$5M to $200M+ in sales",
       "4,000+ installations",
