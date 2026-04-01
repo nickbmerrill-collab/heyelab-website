@@ -6,6 +6,7 @@ const ventures = [
     name: "Power Busway",
     role: "Partner",
     period: "2018 – Present",
+    website: "https://www.legrand.us/power-bus-way",
     description:
       "Joined as a partner in 2018 and helped lead sales to $200M+ annually. Acquired by Legrand in 2024 — we retained distribution rights and territories.",
     metric: "9-Figure",
@@ -21,6 +22,7 @@ const ventures = [
     name: "2M Electrical Reps",
     role: "Founder & President",
     period: "2012 – Present",
+    website: "https://2melectricalreps.com/",
     description:
       "Electrical manufacturer's representative firm we founded in 2012. Grew it to $50M+ in annual sales representing Legrand's full portfolio. We work on a lot of the major data center projects in the US.",
     metric: "$50M+",
@@ -36,6 +38,7 @@ const ventures = [
     name: "Heye Power Consultants",
     role: "Founder",
     period: "2023 – Present",
+    website: null,
     description:
       "Consulting practice focused on high-current and ampacity systems for manufacturing facilities and data centers.",
     metric: "MW+",
@@ -51,6 +54,7 @@ const ventures = [
     name: "Heyelab",
     role: "Founder",
     period: "2025 – Present",
+    website: "https://heyelab.com",
     description:
       "A place for new projects — distributed AI clustering, crypto mining with flare gas, an electrical industry platform, golf cart rentals, small-town delivery, and a few more things in the works.",
     metric: "8+",
@@ -98,12 +102,22 @@ export default function Ventures() {
                 {v.description}
               </p>
 
-              <span className="text-sm text-accent font-medium inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                Read more
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </span>
+              <div className="flex items-center gap-4">
+                {v.website && (
+                  <span className="text-sm text-text-muted font-mono inline-flex items-center gap-1.5">
+                    {v.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>
+                  </span>
+                )}
+                <span className="text-sm text-accent font-medium inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity ml-auto">
+                  Read more
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </span>
+              </div>
 
               {/* Hover glow */}
               <div className="absolute inset-0 rounded-2xl bg-accent/[0.02] opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />

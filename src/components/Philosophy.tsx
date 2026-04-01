@@ -71,7 +71,7 @@ export default function Philosophy() {
                   Show up consistently, in the same industries, with the same
                   people — and things tend to work out over time. Naval Ravikant
                   calls it playing iterated games with iterated people. That&apos;s
-                  been our experience. Staying in the same space for 14+ years
+                  been our experience. Staying in the same space for 20+ years
                   means relationships and knowledge compound in ways that are
                   hard to shortcut.
                 </p>

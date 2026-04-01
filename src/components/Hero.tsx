@@ -23,9 +23,9 @@ export default function Hero() {
         </p>
 
         <p className="text-base md:text-lg text-text-muted max-w-xl mx-auto mb-12">
-          Controls engineering background. Built and run businesses in
-          electrical distribution and power systems. Currently working on
-          a handful of new things.
+          20+ years in the electrical industry, from the warehouse floor
+          to controls engineering to building businesses. Currently working
+          on a handful of new things.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -32,18 +32,21 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                Nick Merrill — electrical engineer by training. Started on the
-                factory floor: programming PLCs, designing controls systems,
-                and building HMI interfaces for metal recycling centers.
+                Nick Merrill — started in the electrical industry at 19,
+                working the warehouse at Hill Country Electrical Supply all
+                through college. Stocking shelves, cutting wire, sweeping
+                floors, building BOMs, learning to read what customers actually
+                needed vs. what they put on paper.
               </p>
               <p>
-                Over time that turned into building businesses. Founded
-                2M Electrical Reps in 2012, joined the Power Busway team as a
-                partner in 2018, started Heye Power Consultants in 2023 for
-                high-current consulting work, and in 2025 set up Heyelab to
-                work on new projects across different industries.
+                That turned into controls engineering at Riverside, then
+                building businesses. Founded 2M Electrical Reps in 2012,
+                joined the Power Busway team as a partner in 2018, started
+                Heye Power Consultants in 2023, and in 2025 set up Heyelab
+                to work on new projects across different industries.
               </p>
               <p>
+                20+ years in the same industry, working with the same people.
                 Most of our work sits at the intersection of{" "}
                 <span className="text-text-primary font-medium">
                   technical depth
@@ -52,8 +55,7 @@ export default function About() {
                 <span className="text-text-primary font-medium">
                   long-term relationships
                 </span>
-                . We&apos;ve stayed in the same industry working with the same
-                people for a long time, and that tends to compound.
+                . That tends to compound.
               </p>
             </div>
 

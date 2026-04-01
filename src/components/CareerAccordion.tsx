@@ -5,15 +5,40 @@ import Link from "next/link";
 
 const entries = [
   {
+    slug: "hill-country-electrical",
+    index: "00",
+    year: "Age 19",
+    title: "Warehouse & Supply",
+    org: "Hill Country Electrical Supply",
+    website: "https://www.hces.net/",
+    metric: "4+",
+    metricLabel: "years",
+    hasDetailPage: false,
+    description:
+      "Started at 19 and worked here all through college. Stocking shelves, cutting wire, sweeping floors, building BOMs, learning procurement flow — the grunt work. Learned to interpret what customers listed vs. what they were actually trying to achieve. This is where the foundation was built, from the absolute bottom of the industry.",
+    highlights: [
+      "Inventory & procurement",
+      "BOM building",
+      "Customer needs translation",
+    ],
+    accentFrom: "from-slate-400",
+    accentTo: "to-slate-300",
+    accentText: "text-slate-300",
+    accentBg: "bg-slate-400",
+    accentBorder: "border-slate-400/30",
+    accentGlow: "shadow-slate-400/20",
+  },
+  {
     slug: "riverside-engineering",
     index: "01",
     year: "Early Career",
     title: "Controls & Automation Engineer",
     org: "Riverside Engineering",
+    website: null,
     metric: "200+",
     metricLabel: "tons/hour throughput",
     description:
-      "Global leader in metal recycling automation. Our team's work is on most if not all American shredding facilities. Co-developed the first non-derivative cruise control for car shredders, improving throughput from 80 to 200+ tons/hour.",
+      "Global leader in metal recycling automation. Our team's work is on most if not all American shredding facilities. Co-developed the first non-derivative cruise control for car shredders — what would now be considered a small language model. That system got us started on self-learning machines and improved throughput from 80 to 200+ tons/hour.",
     highlights: [
       "Industry-standard automation",
       "Cruise control for shredders",
@@ -25,6 +50,7 @@ const entries = [
     accentBg: "bg-cyan-500",
     accentBorder: "border-cyan-500/30",
     accentGlow: "shadow-cyan-500/20",
+    hasDetailPage: true,
   },
   {
     slug: "2m-electrical-reps",
@@ -32,6 +58,7 @@ const entries = [
     year: "2012",
     title: "Founder & President",
     org: "2M Electrical Reps",
+    website: "https://2melectricalreps.com/",
     metric: "$50M+",
     metricLabel: "annual sales",
     description:
@@ -47,6 +74,7 @@ const entries = [
     accentBg: "bg-blue-500",
     accentBorder: "border-blue-500/30",
     accentGlow: "shadow-blue-500/20",
+    hasDetailPage: true,
   },
   {
     slug: "power-busway",
@@ -54,6 +82,7 @@ const entries = [
     year: "2018",
     title: "Partner",
     org: "Power Busway",
+    website: "https://www.legrand.us/power-bus-way",
     metric: "$200M+",
     metricLabel: "annual sales",
     description:
@@ -69,6 +98,7 @@ const entries = [
     accentBg: "bg-violet-500",
     accentBorder: "border-violet-500/30",
     accentGlow: "shadow-violet-500/20",
+    hasDetailPage: true,
   },
   {
     slug: "heye-power-consultants",
@@ -76,6 +106,7 @@ const entries = [
     year: "2023",
     title: "Founder",
     org: "Heye Power Consultants",
+    website: null,
     metric: "MW+",
     metricLabel: "scale systems",
     description:
@@ -91,6 +122,7 @@ const entries = [
     accentBg: "bg-amber-500",
     accentBorder: "border-amber-500/30",
     accentGlow: "shadow-amber-500/20",
+    hasDetailPage: true,
   },
   {
     slug: "heyelab",
@@ -98,6 +130,7 @@ const entries = [
     year: "2025",
     title: "Founder",
     org: "Heyelab",
+    website: "https://heyelab.com",
     metric: "8+",
     metricLabel: "active projects",
     description:
@@ -113,6 +146,7 @@ const entries = [
     accentBg: "bg-emerald-500",
     accentBorder: "border-emerald-500/30",
     accentGlow: "shadow-emerald-500/20",
+    hasDetailPage: true,
   },
 ];
 
@@ -269,26 +303,53 @@ function AccordionItem({
                 ))}
               </div>
 
-              {/* Read more link */}
-              <Link
-                href={`/career/${entry.slug}`}
-                className={`inline-flex items-center gap-2 text-sm font-medium ${entry.accentText} hover:opacity-80 transition-opacity`}
-              >
-                Deep dive
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
+              {/* Links */}
+              <div className="flex flex-wrap gap-4">
+                {entry.website && (
+                  <a
+                    href={entry.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-2 text-sm font-medium ${entry.accentText} hover:opacity-80 transition-opacity`}
+                  >
+                    Visit website
+                    <svg
+                      className="w-3.5 h-3.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      />
+                    </svg>
+                  </a>
+                )}
+                {entry.hasDetailPage && (
+                  <Link
+                    href={`/career/${entry.slug}`}
+                    className={`inline-flex items-center gap-2 text-sm font-medium ${entry.accentText} hover:opacity-80 transition-opacity`}
+                  >
+                    Deep dive
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </Link>
+                )}
+              </div>
             </div>
           </div>
         </div>
