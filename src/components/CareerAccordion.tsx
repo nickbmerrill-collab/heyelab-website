@@ -13,7 +13,7 @@ const entries = [
     metric: "200+",
     metricLabel: "tons/hour throughput",
     description:
-      "Co-developed a cruise control system for car shredders that improved throughput from 80 to 200+ tons/hour. Also did PLC programming and controls work across several facilities.",
+      "Our team co-developed a cruise control system for car shredders that improved throughput from 80 to 200+ tons/hour. Also did PLC programming and controls work across several facilities.",
     highlights: [
       "Novel cruise control system",
       "PLC & controls programming",
@@ -35,7 +35,7 @@ const entries = [
     metric: "$50M+",
     metricLabel: "annual sales",
     description:
-      "Started an electrical manufacturer's representative firm. We represent Legrand's portfolio and work on a lot of the major data center projects in the US.",
+      "Electrical manufacturer's representative firm founded in 2012. We represent Legrand's portfolio and work on a lot of the major data center projects in the US.",
     highlights: [
       "Grew from $2M to $50M+",
       "Major data center focus",

@@ -30,19 +30,19 @@ export default function Bitcoin() {
 
         <div className="space-y-6 text-text-secondary leading-relaxed">
           <p>
-            I came across Bitcoin in 2011 and started mining the following year.
-            As an electrical engineer, the proof-of-work mechanism made immediate
-            sense — converting energy into immutable history is an interesting
-            engineering problem.
+            We came across Bitcoin in 2011 and started mining the following year.
+            With an electrical engineering background, the proof-of-work
+            mechanism made immediate sense — converting energy into immutable
+            history is an interesting engineering problem.
           </p>
           <p>
-            The protocol appeals to me for the same reasons power systems do:
+            The protocol appeals to us for the same reasons power systems do:
             it&apos;s built on physics and math, not on trust in institutions.
             The fixed supply schedule is predictable in a way that monetary
             policy isn&apos;t.
           </p>
           <p>
-            I&apos;ve stayed involved over the years — following protocol
+            We&apos;ve stayed involved over the years — following protocol
             development, running infrastructure, and more recently exploring
             mining operations powered by flare gas through Heyelab.
           </p>

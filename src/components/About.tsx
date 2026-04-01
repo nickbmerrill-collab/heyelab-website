@@ -32,20 +32,19 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I&apos;m Nick Merrill — electrical engineer by training. My career
-                started on the factory floor: programming PLCs, designing
-                controls systems, and building HMI interfaces for metal recycling
-                centers.
+                Nick Merrill — electrical engineer by training. Started on the
+                factory floor: programming PLCs, designing controls systems,
+                and building HMI interfaces for metal recycling centers.
               </p>
               <p>
-                Over time that turned into building businesses. I founded
-                2M Electrical Reps in 2012, joined Power Busway as a partner
-                in 2018, started Heye Power Consultants in 2023 for high-current
-                consulting work, and in 2025 set up Heyelab to work on
-                new projects across different industries.
+                Over time that turned into building businesses. Founded
+                2M Electrical Reps in 2012, joined the Power Busway team as a
+                partner in 2018, started Heye Power Consultants in 2023 for
+                high-current consulting work, and in 2025 set up Heyelab to
+                work on new projects across different industries.
               </p>
               <p>
-                Most of what I do sits at the intersection of{" "}
+                Most of our work sits at the intersection of{" "}
                 <span className="text-text-primary font-medium">
                   technical depth
                 </span>{" "}
@@ -53,8 +52,8 @@ export default function About() {
                 <span className="text-text-primary font-medium">
                   long-term relationships
                 </span>
-                . I&apos;ve stayed in the same industry working with the same people
-                for a long time, and that tends to compound.
+                . We&apos;ve stayed in the same industry working with the same
+                people for a long time, and that tends to compound.
               </p>
             </div>
 

@@ -9,9 +9,9 @@ export default function Contact() {
           Let&apos;s build something
         </h2>
         <p className="text-text-secondary max-w-lg mx-auto mb-12">
-          Whether you need expertise in high-current power systems, want to
-          explore a partnership, or have a project that needs an incubator —
-          I&apos;d like to hear about it.
+          Whether you need help with power systems, want to explore a
+          partnership, or have a project that could use an incubator —
+          we&apos;d like to hear about it.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -27,7 +27,7 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">10x Engineering</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  I came up through electro-mechanical and high-current power
+                  Our roots are in electro-mechanical and high-current power
                   systems — building, commissioning, and troubleshooting on
                   factory floors and in data centers. That hands-on foundation
                   has made everything else easier.
@@ -44,9 +44,9 @@ export default function Philosophy() {
                   <h3 className="text-xl font-bold">The Network Effect</h3>
                 </div>
                 <p className="text-text-secondary leading-relaxed">
-                  Most good things in my career came through people I&apos;d
+                  Most good things in our work have come through people we&apos;d
                   worked with before. Relationships built on trust and
-                  competence tend to open doors over time. I try to invest in
+                  competence tend to open doors over time. We try to invest in
                   people first and let the business follow.
                 </p>
               </div>
@@ -71,7 +71,7 @@ export default function Philosophy() {
                   Show up consistently, in the same industries, with the same
                   people — and things tend to work out over time. Naval Ravikant
                   calls it playing iterated games with iterated people. That&apos;s
-                  been my experience. Staying in the same space for 14+ years
+                  been our experience. Staying in the same space for 14+ years
                   means relationships and knowledge compound in ways that are
                   hard to shortcut.
                 </p>
@@ -89,10 +89,9 @@ export default function Philosophy() {
                 <p className="text-text-secondary leading-relaxed">
                   Most of what matters in communication is nonverbal — body
                   language, presence, the understanding that comes from being in
-                  a room together. I&apos;ve found that the most important things
-                  in my work have come from relationships built face to face.
-                  Digital tools are great, but they&apos;re not a substitute for
-                  showing up.
+                  a room together. The most important things in our work have
+                  come from relationships built face to face. Digital tools are
+                  great, but they&apos;re not a substitute for showing up.
                 </p>
               </div>
 
@@ -107,11 +106,11 @@ export default function Philosophy() {
                 </div>
                 <p className="text-text-secondary leading-relaxed">
                   Do the right thing, even when it costs you in the short term.
-                  I think about this through the lens of game theory and the
+                  We think about this through the lens of game theory and the
                   prisoner&apos;s dilemma — cooperate first, play fair, optimize
                   for the long game. Show returns for your partners before
                   worrying about your own. It&apos;s simple in theory, harder
-                  in practice, but it&apos;s the only approach I&apos;ve seen
+                  in practice, but it&apos;s the only approach we&apos;ve seen
                   work consistently.
                 </p>
               </div>
