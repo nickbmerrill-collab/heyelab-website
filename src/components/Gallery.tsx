@@ -1,33 +1,51 @@
+/* eslint-disable @next/next/no-img-element */
+
 const photos = [
   {
-    src: "/images/riverside-controls-panel.jpg",
-    alt: "Controls panel at Riverside Engineering",
-    caption: "Controls panel design — Riverside Engineering",
+    src: "/images/datacenter-panorama.jpg",
+    alt: "Data center electrical room with UPS and switchgear",
+    caption: "First data center — Microsoft, 2018",
+    span: true,
   },
   {
-    src: "/images/riverside-factory-floor.jpg",
-    alt: "Factory floor at a metal recycling center",
-    caption: "Metal recycling facility automation",
+    src: "/images/2m-team.jpg",
+    alt: "The 2M Electrical Reps team in San Antonio",
+    caption: "The 2M team — San Antonio",
   },
   {
-    src: "/images/riverside-plc-programming.jpg",
-    alt: "PLC programming and commissioning",
-    caption: "PLC programming & commissioning",
+    src: "/images/plc-cabinet.jpg",
+    alt: "PLC cabinet with Allen-Bradley controller and terminal blocks",
+    caption: "PLC cabinet — designed, wired, programmed, commissioned",
   },
   {
-    src: "/images/power-busway-install.jpg",
-    alt: "Power busway installation",
-    caption: "Power busway installation — data center project",
+    src: "/images/datacenter-switchgear.jpg",
+    alt: "Switchgear lineup in a data center electrical room",
+    caption: "Switchgear lineup — data center",
   },
   {
-    src: "/images/power-busway-product.jpg",
-    alt: "Power busway product",
-    caption: "Power busway product innovation",
+    src: "/images/datacenter-cooling.jpg",
+    alt: "Data center cooling and power equipment",
+    caption: "Data center electrical infrastructure",
   },
   {
-    src: "/images/heye-power-site.jpg",
-    alt: "High-current systems consulting",
-    caption: "High-current ampacity consulting",
+    src: "/images/son-fishing.jpg",
+    alt: "Nick's son holding a fishing rod in Port Aransas",
+    caption: "Next generation — Port Aransas",
+  },
+  {
+    src: "/images/factory-floor.jpg",
+    alt: "Factory floor with industrial automation equipment",
+    caption: "Factory floor — automation & controls",
+  },
+  {
+    src: "/images/plc-cabinet-2.jpg",
+    alt: "PLC cabinet interior with wiring and I/O modules",
+    caption: "Controls panel — built from scratch",
+  },
+  {
+    src: "/images/datacenter-ups.jpg",
+    alt: "UPS systems in a data center power room",
+    caption: "UPS lineup — data center power room",
   },
 ];
 
@@ -51,49 +69,29 @@ export default function Gallery() {
             <div
               key={i}
               className={`group relative overflow-hidden rounded-xl bg-bg-card border border-border ${
-                i === 0 ? "md:col-span-2 md:row-span-2" : ""
+                photo.span ? "md:col-span-2 md:row-span-2" : ""
               }`}
             >
               <div
-                className={`${
-                  i === 0 ? "aspect-[4/3]" : "aspect-[3/2]"
-                } flex items-center justify-center text-text-muted`}
+                className={`relative ${
+                  photo.span ? "aspect-[4/3]" : "aspect-[3/2]"
+                }`}
               >
-                <div className="text-center p-6">
-                  <svg
-                    className="w-12 h-12 mx-auto mb-3 text-border-accent"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1}
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <p className="text-xs font-mono text-text-muted">
-                    {photo.src.split("/").pop()}
-                  </p>
-                  <p className="text-sm text-text-secondary mt-2">
-                    {photo.caption}
-                  </p>
-                </div>
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  className="w-full h-full object-cover"
+                  loading={i === 0 ? "eager" : "lazy"}
+                />
               </div>
 
-              {/* Caption overlay (visible when real images are added) */}
+              {/* Caption overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                 <p className="text-sm text-white">{photo.caption}</p>
               </div>
             </div>
           ))}
         </div>
-
-        <p className="text-center text-sm text-text-muted mt-8 font-mono">
-          Drop your photos into <code className="text-accent">/public/images/</code> with the
-          filenames shown above
-        </p>
       </div>
     </section>
   );
