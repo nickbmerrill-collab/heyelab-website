@@ -67,13 +67,7 @@ export default function Gallery() {
                   alt={photo.alt}
                   className="w-full h-full object-cover"
                   loading={i === 0 ? "eager" : "lazy"}
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = "none";
-                    if (target.parentElement) {
-                      target.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center text-text-muted"><div class="text-center p-6"><p class="text-sm text-text-secondary">${photo.caption}</p><p class="text-xs font-mono text-text-muted mt-2">Photo coming soon</p></div></div>`;
-                    }
-                  }}
+                  style={{ objectFit: "cover" }}
                 />
               </div>
 

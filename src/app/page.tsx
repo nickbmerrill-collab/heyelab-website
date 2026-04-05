@@ -18,7 +18,7 @@ export default function Home() {
       <About />
       <CareerAccordion />
       <Ventures />
-      <Gallery />
+      {/* <Gallery /> — uncomment when photos are added to /public/images/ */}
       <Philosophy />
       <Bitcoin />
       <ProjectUpdates />
