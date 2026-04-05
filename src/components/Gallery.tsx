@@ -2,8 +2,8 @@
 
 const photos = [
   {
-    src: "/images/datacenter-panorama.jpg",
-    alt: "Data center electrical room with UPS and switchgear",
+    src: "/images/datacenter-power-room.jpg",
+    alt: "Data center power room with UPS and switchgear lineups",
     caption: "First data center — Microsoft, 2018",
     span: true,
   },
@@ -18,34 +18,19 @@ const photos = [
     caption: "PLC cabinet — designed, wired, programmed, commissioned",
   },
   {
-    src: "/images/datacenter-switchgear.jpg",
-    alt: "Switchgear lineup in a data center electrical room",
-    caption: "Switchgear lineup — data center",
+    src: "/images/busway-tapbox.jpg",
+    alt: "Custom busway tap box with cable whip",
+    caption: "Custom busway solution — Apple/Flextronics, Austin",
   },
   {
     src: "/images/datacenter-cooling.jpg",
-    alt: "Data center cooling and power equipment",
-    caption: "Data center electrical infrastructure",
+    alt: "Data center cooling plant and generators aerial view",
+    caption: "Cooling plant — data center exterior",
   },
   {
     src: "/images/son-fishing.jpg",
-    alt: "Nick's son holding a fishing rod in Port Aransas",
+    alt: "Fishing rod on the dock in Port Aransas",
     caption: "Next generation — Port Aransas",
-  },
-  {
-    src: "/images/factory-floor.jpg",
-    alt: "Factory floor with industrial automation equipment",
-    caption: "Factory floor — automation & controls",
-  },
-  {
-    src: "/images/plc-cabinet-2.jpg",
-    alt: "PLC cabinet interior with wiring and I/O modules",
-    caption: "Controls panel — built from scratch",
-  },
-  {
-    src: "/images/datacenter-ups.jpg",
-    alt: "UPS systems in a data center power room",
-    caption: "UPS lineup — data center power room",
   },
 ];
 
@@ -82,6 +67,13 @@ export default function Gallery() {
                   alt={photo.alt}
                   className="w-full h-full object-cover"
                   loading={i === 0 ? "eager" : "lazy"}
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = "none";
+                    if (target.parentElement) {
+                      target.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center text-text-muted"><div class="text-center p-6"><p class="text-sm text-text-secondary">${photo.caption}</p><p class="text-xs font-mono text-text-muted mt-2">Photo coming soon</p></div></div>`;
+                    }
+                  }}
                 />
               </div>
 
