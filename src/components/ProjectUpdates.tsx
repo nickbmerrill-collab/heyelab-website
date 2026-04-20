@@ -3,7 +3,7 @@ const GITHUB_ORG = "nickbmerrill-collab";
 const projects = [
   {
     repo: "emma-web",
-    name: "2MOS / EMMA",
+    name: "EMMA",
     description: "AI assistant for the electrical industry",
     accentText: "text-blue-400",
     accentBg: "bg-blue-500",

@@ -277,9 +277,9 @@ export const ventures: VentureDetail[] = [
           "Combining crypto mining operations with flare gas capture — turning wasted energy from oil and gas operations into productive compute, reducing emissions while generating revenue.",
       },
       {
-        title: "2MOS — Electrical Industry Platform",
+        title: "EMMA — Electrical Industry Platform",
         description:
-          "Developing a comprehensive application for the electrical industry: plan takeoffs, project management, CRM, and workflow automation. Built from 14+ years of firsthand experience knowing exactly what the industry needs.",
+          "An AI-powered platform for the electrical industry: plan takeoffs, project management, CRM, and workflow automation. Built from 14+ years of firsthand experience knowing exactly what the industry needs. Try it at emma.heyelab.com.",
       },
       {
         title: "ClickCart — Mobile Golf Cart Rentals",
@@ -311,7 +311,7 @@ export const ventures: VentureDetail[] = [
       {
         challenge: "Balancing breadth across diverse projects",
         solution:
-          "Each project leverages a different part of my experience — distributed AI and crypto mining tap into power systems expertise, 2MOS draws on 14+ years in the electrical industry, and the consumer apps bring business-building skills to new markets.",
+          "Each project leverages a different part of my experience — distributed AI and crypto mining tap into power systems expertise, EMMA draws on 14+ years in the electrical industry, and the consumer apps bring business-building skills to new markets.",
       },
       {
         challenge: "Building software products from an engineering background",
@@ -338,19 +338,19 @@ export const ventures: VentureDetail[] = [
       {
         title: "Cross-Pollination",
         description:
-          "Insights from one project feed into others. Power systems expertise informs AI clustering and crypto mining. Industry knowledge drives 2MOS design. Every project makes the others smarter.",
+          "Insights from one project feed into others. Power systems expertise informs AI clustering and crypto mining. Industry knowledge drives EMMA design. Every project makes the others smarter.",
       },
     ],
     lessons: [
       "The best time to start an incubator is after you've built and scaled real businesses — you can't teach what you haven't done.",
       "Every venture you've built teaches you something that makes the next one better. The compounding effect is real.",
       "The most valuable thing you can offer another founder isn't capital — it's pattern recognition from having been in the trenches.",
-      "Some of the best business ideas come from solving problems you personally experience — 2MOS exists because I spent 14 years wishing the electrical industry had better tools.",
+      "Some of the best business ideas come from solving problems you personally experience — EMMA exists because I spent 14 years wishing the electrical industry had better tools.",
     ],
     gallery: [
       { src: "/images/work/heyelab-lab.jpg", caption: "Heyelab workspace" },
       { src: "/images/work/heyelab-ai-cluster.jpg", caption: "Distributed AI clustering infrastructure" },
-      { src: "/images/work/heyelab-2mos.jpg", caption: "2MOS electrical industry platform" },
+      { src: "/images/work/heyelab-2mos.jpg", caption: "EMMA — electrical industry platform" },
     ],
   },
 ];

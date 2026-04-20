@@ -384,7 +384,7 @@ export const careerEntries: CareerDetail[] = [
     period: "2025 – Present",
     accentColor: "emerald",
     overview:
-      "Heyelab is the culmination of everything I've learned building businesses over the past 14+ years. It's an incubator with 6+ active projects spanning distributed AI infrastructure, energy, consumer apps, and full-stack industry software. The portfolio includes offsite distributed AI clustering, crypto mining with flare gas sequestering, ClickCart (mobile golf cart rentals), a small-town delivery app, and 2MOS — a comprehensive electrical industry platform for plan takeoffs, project management, and CRM.",
+      "Heyelab is the culmination of everything I've learned building businesses over the past 14+ years. It's an incubator with 6+ active projects spanning distributed AI infrastructure, energy, consumer apps, and full-stack industry software. The portfolio includes offsite distributed AI clustering, crypto mining with flare gas sequestering, ClickCart (mobile golf cart rentals), a small-town delivery app, and EMMA — a comprehensive electrical industry platform for plan takeoffs, project management, and CRM.",
     achievements: [
       {
         title: "Distributed AI, Compute Sharing & Crypto Mining",
@@ -392,7 +392,7 @@ export const careerEntries: CareerDetail[] = [
           "Building offsite distributed AI compute clusters and crypto mining operations that capture flare gas — turning wasted energy into productive compute. Also contributing compute to external research, notably peptide research where our infrastructure accelerates molecular modeling.",
       },
       {
-        title: "2MOS — Industry Software",
+        title: "EMMA — Industry Software",
         description:
           "Developing a full-stack electrical industry application covering plan takeoffs, project management, CRM, and workflow automation — born from 14+ years of knowing exactly what the industry needs and doesn't have.",
       },
@@ -409,14 +409,14 @@ export const careerEntries: CareerDetail[] = [
       {
         title: "Cross-Disciplinary Portfolio",
         description:
-          "Each project leverages different expertise — power systems knowledge drives AI clustering and mining, industry experience drives 2MOS, 3D printing enables rapid hardware iteration, and business-building skills fuel consumer apps.",
+          "Each project leverages different expertise — power systems knowledge drives AI clustering and mining, industry experience drives EMMA, 3D printing enables rapid hardware iteration, and business-building skills fuel consumer apps.",
       },
     ],
     challenges: [
       {
         challenge: "Managing 6+ active projects across diverse domains",
         solution:
-          "Each project taps a different part of my experience. Distributed AI and crypto mining leverage power systems expertise, 2MOS draws on 14+ years in electrical, consumer apps apply business-building fundamentals. The diversity is the strategy.",
+          "Each project taps a different part of my experience. Distributed AI and crypto mining leverage power systems expertise, EMMA draws on 14+ years in electrical, consumer apps apply business-building fundamentals. The diversity is the strategy.",
       },
       {
         challenge: "Building software products from a hardware background",
@@ -438,19 +438,19 @@ export const careerEntries: CareerDetail[] = [
       {
         title: "Cross-Pollination",
         description:
-          "Insights flow between projects. Power expertise informs AI infrastructure. Industry knowledge shapes 2MOS. Consumer app lessons improve everything. Every project makes the others smarter.",
+          "Insights flow between projects. Power expertise informs AI infrastructure. Industry knowledge shapes EMMA. Consumer app lessons improve everything. Every project makes the others smarter.",
       },
     ],
     lessons: [
       "The best incubator is one run by people who've actually built and scaled businesses, not just invested in them.",
       "Every venture you build teaches you patterns that make the next one faster and more likely to succeed.",
       "The most valuable thing you can give another founder isn't money — it's pattern recognition from years in the trenches.",
-      "Some of the best business ideas come from solving problems you personally experience — 2MOS exists because I spent 14 years wishing the electrical industry had better tools.",
+      "Some of the best business ideas come from solving problems you personally experience — EMMA exists because I spent 14 years wishing the electrical industry had better tools.",
     ],
     gallery: [
       { src: "/images/career/heyelab-workspace.jpg", caption: "Heyelab workspace and lab" },
       { src: "/images/career/heyelab-ai-cluster.jpg", caption: "Distributed AI clustering infrastructure" },
-      { src: "/images/career/heyelab-2mos.jpg", caption: "2MOS electrical industry platform" },
+      { src: "/images/career/heyelab-2mos.jpg", caption: "EMMA electrical industry platform" },
     ],
     tags: ["Incubator", "Distributed AI", "Crypto Mining", "SaaS", "Consumer Apps", "Flare Gas"],
   },

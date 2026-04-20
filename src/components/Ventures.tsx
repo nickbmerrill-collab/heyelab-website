@@ -125,6 +125,49 @@ export default function Ventures() {
           ))}
         </div>
 
+        {/* Featured Heyelab Project */}
+        <div className="mt-8 mb-12">
+          <a
+            href="https://emma.heyelab.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative p-8 rounded-2xl bg-gradient-to-br from-accent/[0.06] to-bg-card border border-accent/30 hover:border-accent/60 transition-all duration-300 block"
+          >
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-xs font-mono text-accent/70 tracking-wider uppercase">Heyelab Project</span>
+            </div>
+            <div className="flex items-start justify-between">
+              <div>
+                <h3 className="text-2xl font-bold mb-1">EMMA</h3>
+                <p className="text-sm text-accent mb-4">AI Assistant for the Electrical Industry</p>
+                <p className="text-text-secondary leading-relaxed max-w-2xl">
+                  An AI-powered platform for plan takeoffs, project management, CRM, and workflow automation — built from 14+ years of firsthand experience in the electrical industry.
+                </p>
+              </div>
+              <div className="p-3 rounded-xl bg-accent/10 text-accent shrink-0">
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                </svg>
+              </div>
+            </div>
+            <div className="mt-4 flex items-center gap-4">
+              <span className="text-sm font-mono text-accent/70 inline-flex items-center gap-1.5">
+                emma.heyelab.com
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+              </span>
+              <span className="text-sm text-accent font-medium inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity ml-auto">
+                Try EMMA
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </span>
+            </div>
+            <div className="absolute inset-0 rounded-2xl bg-accent/[0.02] opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
+          </a>
+        </div>
+
         {/* Classified Projects */}
         <div className="mt-12">
           <p className="text-sm font-mono text-text-muted mb-6 tracking-wider uppercase text-center">
