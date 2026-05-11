@@ -27,7 +27,7 @@ const valueProps = [
 
 export default function Opportunity() {
   return (
-    <section id="opportunity" className="py-32 relative">
+    <section id="opportunity" className="py-20 md:py-32 relative">
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-3xl mb-16">
           <p className="text-sm font-mono text-accent mb-4 tracking-wider uppercase">

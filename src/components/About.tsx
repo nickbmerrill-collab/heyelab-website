@@ -43,7 +43,7 @@ const services = [
 
 export default function About() {
   return (
-    <section id="what-we-do" className="py-32 relative">
+    <section id="what-we-do" className="py-20 md:py-32 relative">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-sm font-mono text-accent mb-4 tracking-wider uppercase">

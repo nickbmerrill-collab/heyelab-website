@@ -38,7 +38,7 @@ export default function PilotSignup() {
   const ready = business.trim() && name.trim() && email.trim();
 
   return (
-    <section id="pilot" className="py-32 relative">
+    <section id="pilot" className="py-20 md:py-32 relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-accent/[0.06] rounded-full blur-[120px] pointer-events-none" />
       <div className="max-w-4xl mx-auto px-6 relative">
         <div className="text-center mb-12">
@@ -66,7 +66,7 @@ export default function PilotSignup() {
           action={mailtoHref}
           method="post"
           encType="text/plain"
-          className="p-8 md:p-10 rounded-2xl bg-bg-card border border-border space-y-5"
+          className="p-5 sm:p-8 md:p-10 rounded-2xl bg-bg-card border border-border space-y-5"
         >
           <div className="grid sm:grid-cols-2 gap-5">
             <div>
