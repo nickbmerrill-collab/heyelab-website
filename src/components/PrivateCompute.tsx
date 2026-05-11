@@ -23,7 +23,7 @@ const points = [
 
 export default function PrivateCompute() {
   return (
-    <section id="private-compute" className="py-32 relative">
+    <section id="private-compute" className="py-20 md:py-32 relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent/[0.04] rounded-full blur-[120px] pointer-events-none" />
       <div className="max-w-6xl mx-auto px-6 relative">
         <div className="grid md:grid-cols-2 gap-16 items-start">

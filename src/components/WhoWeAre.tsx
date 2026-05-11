@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function WhoWeAre() {
   return (
-    <section id="who-we-are" className="py-32 relative">
+    <section id="who-we-are" className="py-20 md:py-32 relative">
       <div className="max-w-4xl mx-auto px-6">
-        <div className="p-10 md:p-14 rounded-2xl bg-bg-card border border-border">
+        <div className="p-6 sm:p-10 md:p-14 rounded-2xl bg-bg-card border border-border">
           <p className="text-sm font-mono text-accent mb-4 tracking-wider uppercase">
             Who We Are
           </p>

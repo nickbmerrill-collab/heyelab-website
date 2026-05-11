@@ -63,10 +63,10 @@ const industries = [
 
 export default function CaseStudies() {
   return (
-    <section id="in-action" className="py-32 relative">
+    <section id="in-action" className="py-20 md:py-32 relative">
       <div className="max-w-6xl mx-auto px-6">
         {/* Pilot banner */}
-        <div className="mb-16 p-8 md:p-10 rounded-2xl bg-gradient-to-br from-accent/[0.08] to-bg-card border border-accent/30">
+        <div className="mb-16 p-6 sm:p-8 md:p-10 rounded-2xl bg-gradient-to-br from-accent/[0.08] to-bg-card border border-accent/30">
           <p className="text-sm font-mono text-accent mb-3 tracking-wider uppercase">
             Now Piloting · Port Aransas, TX
           </p>
