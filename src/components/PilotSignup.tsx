@@ -61,7 +61,7 @@ export default function PilotSignup() {
 
         <form
           onSubmit={(e) => {
-            if (!ready) e.preventDefault();
+            e.preventDefault();
           }}
           action={mailtoHref}
           method="post"

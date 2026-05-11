@@ -30,7 +30,7 @@ const services = [
     ),
   },
   {
-    title: "Document &amp; Data Intelligence",
+    title: "Document & Data Intelligence",
     description:
       "Make your PDFs, drawings, spreadsheets, and historical records searchable, queryable, and useful. Decades of institutional knowledge become a tool your whole team can use.",
     icon: (
