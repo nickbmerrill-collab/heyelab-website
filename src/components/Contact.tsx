@@ -6,12 +6,12 @@ export default function Contact() {
           Contact
         </p>
         <h2 className="text-3xl md:text-5xl font-bold mb-6">
-          Let&apos;s build something
+          Bring AI to your business
         </h2>
         <p className="text-text-secondary max-w-lg mx-auto mb-12">
-          Whether you need help with power systems, want to explore a
-          partnership, or have a project that could use an incubator —
-          we&apos;d like to hear about it.
+          If you run a small or medium business and you&apos;re curious
+          what AI could actually do for your team — on your hardware, with
+          your data — we&apos;d like to talk. No deck required.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

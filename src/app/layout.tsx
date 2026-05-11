@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const description =
+  "Heyelab is a private AI lab helping small and medium businesses put AI to work — on their own hardware, on their own premises. No data sent to the cloud.";
+
 export const metadata: Metadata = {
-  title: "Heyelab — Nick Merrill",
-  description:
-    "Engineer, entrepreneur, and builder. High-current power systems, electro-mechanical expertise, and venture building.",
+  title: "Heyelab — Private AI for small & medium businesses",
+  description,
   openGraph: {
-    title: "Heyelab — Nick Merrill",
-    description:
-      "Engineer, entrepreneur, and builder. High-current power systems, electro-mechanical expertise, and venture building.",
+    title: "Heyelab — Private AI for small & medium businesses",
+    description,
     url: "https://www.heyelab.com",
     siteName: "Heyelab",
     type: "website",
